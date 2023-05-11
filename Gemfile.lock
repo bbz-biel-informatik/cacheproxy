@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.4.0)
+    faraday (2.7.4)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.7)
+    rack-protection (3.0.6)
+      rack
+    redis (5.0.6)
+      redis-client (>= 0.9.0)
+    redis-client (0.14.1)
+      connection_pool
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.6)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.6)
+      tilt (~> 2.0)
+    tilt (2.1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  faraday (~> 2.7)
+  redis (~> 5.0)
+  sinatra (~> 3.0)
+
+RUBY VERSION
+   ruby 3.0.2p107
+
+BUNDLED WITH
+   2.3.23
